@@ -1,0 +1,18 @@
+{
+  "name": "unicycle-logistics",
+  "version": "1.0.0",
+  "description": "Marketplace et micro-logistique entre étudiants",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
